@@ -8,12 +8,10 @@ body {
 
 h1  {
     color: navy;
-    font-size: 32px;
 }
 
 h2 {
     color: teal;
-    font-size: 24px;
 }
 
 a {
@@ -24,10 +22,32 @@ a:hover {
     color: darkred;
     background-color: lightyellow;
 }
+
 .destacado {
     background-color: lightyellow;
-    padding: 10px;
 }
+
 #nombre {
     color: darkred;
+}
+li:first-child {
+    color: darkred;
+}
+
+li:last-child {
+    color: darkgreen;
+}
+
+#fortaleses > li {
+    background-color: lightyellow;
+}
+
+#nombre::before {
+    content: "★ ";
+    color: goldenrod;
+}
+
+#nombre::after {
+    content: " ★";
+    color: goldenrod;
 }
