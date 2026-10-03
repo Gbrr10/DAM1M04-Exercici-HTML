@@ -20,3 +20,14 @@ a {
     color: darkgreen;
     text-decoration: underline;
 }
+a:hover {
+    color: darkred;
+    background-color: lightyellow;
+}
+.destacado {
+    background-color: lightyellow;
+    padding: 10px;
+}
+#nombre {
+    color: darkred;
+}
