@@ -1,6 +1,9 @@
 body {
     background-color: lightgray;
     color: black;
+    width: 900px;
+    margin: 30px auto;
+    padding: 20px;
 }
 .curriculum {
     font-family: "Roboto" , sans-serif;
