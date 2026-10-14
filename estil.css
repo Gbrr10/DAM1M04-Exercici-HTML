@@ -1,9 +1,10 @@
 body {
-    background-color: lightgray;
+    background-color: white;
     color: black;
     width: 900px;
     margin: 30px auto;
     padding: 20px;
+    border-radius: 15px;
 }
 .curriculum {
     font-family: "Roboto" , sans-serif;
@@ -11,10 +12,15 @@ body {
 
 h1  {
     color: navy;
+    font-size: 30px;
 }
 
 h2 {
     color: teal;
+    font-size: 24px;
+    margin-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid lightgray;
 }
 
 a {
@@ -27,11 +33,15 @@ a:hover {
 }
 
 .destacado {
-    background-color: lightyellow;
+    background-color: white;
 }
 
 #nombre {
-    color: darkred;
+    color: navy;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+
 }
 li:first-child {
     color: darkred;
@@ -42,7 +52,11 @@ li:last-child {
 }
 
 #fortaleses > li {
-    background-color: lightyellow;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 #nombre::before {
@@ -54,3 +68,106 @@ li:last-child {
     content: " ★";
     color: goldenrod;
 }
+
+nav {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    color: navy;
+    background-color: white;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+html {
+    background-color: lightgray;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: gold;
+    background-color: navy;
+}
+
+ul, ol {
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.foto-personal {
+    float: right;
+    margin: 0 0 20px 25px;
+}
+
+hr {
+    clear: both;
+    margin: 30px 0;
+}
+
+strong {
+    color: navy;
+    font-size: 18px;
+}
+
+li p {
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.logo-python {
+    border: none;
+}
+#estudis, #projectes {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.columna {
+    width: 420px;
+    float: left;
+    margin: 0 15px;
+}
+
