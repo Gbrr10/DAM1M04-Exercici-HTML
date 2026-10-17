@@ -36,17 +36,10 @@ a:hover {
 
 #nombre {
     font-size: 32px;
-    text-align: left;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
 
-}
-li:first-child {
-    color: darkred;
-}
-
-li:last-child {
-    color: darkgreen;
 }
 
 #fortaleses > li {
@@ -100,6 +93,7 @@ html {
 p {
     font-size: 16px;
     line-height: 26px;
+    text-align: justify;
 }
 
 footer {
@@ -112,6 +106,19 @@ footer {
 
 footer a {
     color: white;
+    text-decoration: none;
+}
+
+footer h2 {
+    color: white;
+    margin-top: 0;
+}
+
+.enllacos-contacte {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
 }
 
 footer a:hover {
@@ -184,6 +191,7 @@ li p {
 .presentacio h2 {
     font-size: 20px;
     margin-top: 0;
+    text-align: center;
 }
 
 #coneixements {
@@ -212,4 +220,42 @@ li p {
     padding: 15px;
     margin: 0;
     border: 1px solid lightgray;
+}
+
+.tornar-inici {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.tornar-inici:hover {
+    background-color: lightgray;
+    color: navy;
+}
+
+.estat {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.columna h2 {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
 }
